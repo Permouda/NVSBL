@@ -1,0 +1,153 @@
+.links-per{
+    background-color: #ffc745;
+    color: #0d2a59;
+}
+.links-per:hover{
+    background-color: #0d2a59;
+    color: #ffc745;
+}
+
+
+
+
+.input-per-2{
+    background-color: transparent;
+    border-color: #ffc74510;
+    color: #ffc745;
+}
+.input-per-2:hover{
+    border-color: #ffc745;
+    box-shadow: 0 0 10px #ffffff2f,0 0 15px #ffc745;
+    transition: 0.5s;
+    
+}
+
+.input-per-link{
+    background-color: transparent;
+    border-color: #ffc74510;
+    color: #ffffff;
+}
+.input-per-link:hover{
+    border-color: #ffc745;
+    box-shadow: 0 0 10px #ffffff2f,0 0 15px #ffc745;
+    transition: 0.5s;
+    color: #ffc745;
+}
+
+.input-per{
+    background-color: #131313;
+    color: #ffffff;
+}
+.bg-yellow-1{
+    background-color: #ffc745;
+}
+.bg-blue-1{
+    background-color: #0d2a59;
+}
+.bg-blue-2{
+    background-color: #111827;
+}
+
+.text-blue{
+    color: #0d2a59;
+}
+.text-yellow{
+    color: #ffc745;
+}
+.text-to-yellow{
+    color:#ffffff;
+}
+
+.text-to-yellow:hover{
+    color: #ffc745;
+}
+
+.btn-per{
+    background-color: #ffc745;
+    color: #0d2a59;
+    border-color: #ffc745;
+}
+.btn-per:hover{
+    background-color: #111111;
+    color: #ffc745;
+    border-color: #111111;
+}
+.btn-per-2{
+
+    color: #ffc745;
+    border-color: #ffc745;
+
+}
+.btn-per-2:hover{
+    background-color: #ffc745;
+    color: #0d2a59;
+   
+}
+
+
+
+
+::placeholder{
+    color: #ffc745 !important;
+
+}
+.border-yellow{
+    border-color: #ffc745;
+}
+.border-blue{
+    border-width: 1px;
+    border-color: #be8f20;
+}
+
+
+.morph{
+background: rgba(255, 199, 69, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.3px);
+-webkit-backdrop-filter: blur(7.3px);
+border: 1px solid rgba(255, 199, 69, 0.19);
+    }
+
+
+
+
+
+
+
+    .container-home {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      
+      .text-home span {
+        font-size: 100px;
+        padding: 0 10px;
+        text-transform: uppercase;
+        color: #111111;
+        animation: zoomup 3s linear infinite;
+        animation-delay: calc(200ms * var(--i));
+      }
+      
+      @keyframes zoomup {
+        0%,
+        100% {
+          color: #ffc745;
+          filter: blur(1px);
+          text-shadow: 0 0 10px #ffc745, 0 0 20px #ffc745, 0 0 30px #ffc745,
+            0 0 40px #ffc745, 0 0 60px #ffc745, 0 0 80px #ffc745, 0 0 100px #ffc745,
+            0 0 120px #ffc745;
+        }
+      
+        50%,
+        95% {
+          filter: blur(0);
+          color: #111111;
+          text-shadow: none;
+        }
+      }
